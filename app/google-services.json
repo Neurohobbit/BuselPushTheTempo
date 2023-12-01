@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967660036592",
+    "project_id": "buseltest",
+    "storage_bucket": "buseltest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967660036592:android:f18b52746327317fa93d35",
+        "android_client_info": {
+          "package_name": "com.busel.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1xWHC0oAnOhFBDMDtvGhWvkjQ7yrRKAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
