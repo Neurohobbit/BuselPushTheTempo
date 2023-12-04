@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "DaggerMVVMPractice"
 include(":app")
 include(":data")
+include(":domain")

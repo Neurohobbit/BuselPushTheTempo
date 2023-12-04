@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import androidx.core.content.ContextCompat
-import com.example.daggermvvmpractice.MyFirebaseMessagingService
 import com.example.daggermvvmpractice.ui.listscreen.ListScreen
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
@@ -31,7 +30,7 @@ class RootActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        askNotificationPermission()
+//        askNotificationPermission()
     }
 
     // Declare the launcher at the top of your Activity/Fragment:

@@ -9,9 +9,11 @@ import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
+import javax.inject.Inject
 
 @Composable
 fun ListScreen(viewModel: ListViewModel = viewModel()) {
+
     Scaffold(
         topBar = {
             TopAppBar(

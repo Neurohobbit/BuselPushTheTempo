@@ -44,12 +44,18 @@ android {
 
 dependencies {
 
+    // Modules
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
 
     implementation ("com.google.dagger:dagger:2.48.1")
     kapt ("com.google.dagger:dagger-compiler:2.48.1")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
     // Compose
     implementation("androidx.compose.material:material:1.5.4")
